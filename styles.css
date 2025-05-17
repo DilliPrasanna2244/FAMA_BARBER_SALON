@@ -1,0 +1,68 @@
+/* Navbar */
+
+.navbar {
+    z-index: 1050; /* Ensures it's above other content */
+  }
+  
+  .navbar-brand strong {
+    color: gold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+  }
+  
+  .nav-link:hover {
+    color: #ffc107 !important;
+    transition: color 0.3s ease-in-out;
+  }
+  
+    
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  .hero-section {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    color: white;
+  }
+  
+  .hero-section h1 {
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+  }
+  
+  .card i {
+    display: block;
+  }
+  
+  .card {
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  footer {
+    font-size: 0.9rem;
+  }
+/* button hover */
+  .btn-outline-light {
+    transition: all 0.3s ease;
+  }
+  .btn-outline-light:hover {
+    background-color: white;
+    color: black;
+  }
+/* service section card */
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  
