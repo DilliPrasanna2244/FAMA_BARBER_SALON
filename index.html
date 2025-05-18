@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-
+<!DOCTYPE html
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -22,190 +21,211 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <!-- Style -->
-  <style>
+<style>
 
-body {
-    font-family: 'Poppins', sans-serif;
-    scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
-  }
+    body {
+        font-family: 'Poppins', sans-serif;
+        scroll-behavior: smooth;
+        margin: 0;
+        padding: 0;
+      }
 
-   /* Navbar Fix */
-   .navbar {
-    background-color: rgba(0, 0, 0, 0.85) !important; /* semi-transparent black */
-    z-index: 9999;
-  }
+      /* Navbar Fix */
+      .navbar {
+        background-color: rgba(0, 0, 0, 0.85) !important; /* semi-transparent black */
+        z-index: 9999;
+      }
 
-  .navbar-collapse {
-    background-color: rgba(0, 0, 0, 0.95); /* dark background in mobile menu */
-    padding: 1rem;
-    border-radius: 0.5rem;
-  }
+      .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.95); /* dark background in mobile menu */
+        padding: 1rem;
+        border-radius: 0.5rem;
+      }
 
-    .hero-section {
-      position: relative;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-    }
-section {
-  padding: 80px 0;
-}
-
-.navbar-brand strong {
-  color: #ffc107;
-}
-
-.nav-link:hover {
-  color: #ffc107 !important;
-}
-
-footer {
-  background: #343a40;
-  color: #fff;
-  padding: 30px 0;
-}
-
-.map-responsive {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-}
-
-.map-responsive iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-    .swiper-slide {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
+        .hero-section {
+          position: relative;
+          height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+        }
+    section {
+      padding: 80px 0;
     }
 
-    .swiper-pagination-bullet-active {
-      background: #ffc107 !important;
+    .navbar-brand strong {
+      color: #ffc107;
     }
 
-    .btn-outline-primary {
-      border-color: #ffc107 !important;
+    .nav-link:hover {
       color: #ffc107 !important;
     }
 
-    .btn-outline-primary:hover {
-      background-color: #ffc107 !important;
-      color: white !important;
+    footer {
+      background: #343a40;
+      color: #fff;
+      padding: 30px 0;
     }
-	
 
-    .hero-section {
-  position: relative;
-  height: 100vh;
-  padding-top: 80px; /* offset for fixed navbar */
-  color: white;
-  background-position: center;
-  background-size: cover;
-  text-shadow: 1px 1px 5px rgba(0,0,0,0.7); /* improves text readability */
-}
+    .map-responsive {
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      position: relative;
+      height: 0;
+    }
 
-.hero-title h1 {
-  margin: 0;
-  font-size: 3rem;
-}
+    .map-responsive iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
 
-.hero-logo {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid #ffc107;
-  background-color: white;
-}
+        .swiper-slide {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+        }
 
-.hero-section {
-  position: relative;
-  height: 100vh;
-  color: #fff;
-}
+        .swiper-pagination-bullet-active {
+          background: #ffc107 !important;
+        }
 
-.hero-section .slide-content {
-  background: rgba(0, 0, 0, 0.6); /* optional overlay */
-  padding: 30px;
-  border-radius: 10px;
-  display: inline-block;
-}
+        .btn-outline-primary {
+          border-color: #ffc107 !important;
+          color: #ffc107 !important;
+        }
 
-.hero-section h1, .hero-section p, .hero-section ul {
-  text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
-}
+        .btn-outline-primary:hover {
+          background-color: #ffc107 !important;
+          color: white !important;
+        }
+      
 
-.card:hover {
-  transform: translateY(-5px);
-  transition: 0.3s ease;
-}
+        .hero-section {
+        position: relative;
+        height: 100vh;
+        padding-top: 80px; /* offset for fixed navbar */
+        color: white;
+        background-position: center;
+        background-size: cover;
+        text-shadow: 1px 1px 5px rgba(0,0,0,0.7); /* improves text readability */
+      }
 
-.card img {
-  height: 200px;
-  object-fit: cover;
-}
+      .hero-title h1 {
+        margin: 0;
+        font-size: 3rem;
+      }
 
-html {
-  scroll-behavior: smooth;
-}
+      .hero-logo {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #ffc107;
+        background-color: white;
+      }
 
-#bookingForm input, #bookingForm select {
-  border-radius: 10px;
-}
-#bookingForm .btn:hover {
-  transform: scale(1.03);
-  transition: 0.3s ease-in-out;
-}
+      .hero-section {
+        position: relative;
+        height: 100vh;
+        color: #fff;
+      }
+
+      .hero-section .slide-content {
+        background: rgba(0, 0, 0, 0.6); /* optional overlay */
+        padding: 30px;
+        border-radius: 10px;
+        display: inline-block;
+      }
+
+      .hero-section h1, .hero-section p, .hero-section ul {
+        text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+        transition: 0.3s ease;
+      }
+
+      .card img {
+        height: 200px;
+        object-fit: cover;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      #bookingForm input, #bookingForm select {
+        border-radius: 10px;
+      }
+      #bookingForm .btn:hover {
+        transform: scale(1.03);
+        transition: 0.3s ease-in-out;
+      }
 
 
-.gallery-img-container {
-  cursor: pointer;
-  overflow: hidden;
-}
+      .gallery-img-container {
+        cursor: pointer;
+        overflow: hidden;
+      }
 
-.gallery-img {
-  transition: transform 0.4s ease;
-  border-radius: 10px;
-}
+      .gallery-img {
+        transition: transform 0.4s ease;
+        border-radius: 10px;
+      }
 
-.gallery-img-fixed {
-  height: 250px;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
-}
+      .gallery-img-fixed {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+      }
 
-.gallery-img-fixed:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 10px rgba(255, 193, 7, 0.6);
-}
+      .gallery-img-fixed:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px rgba(255, 193, 7, 0.6);
+      }
 
-@media (max-width: 768px) {
-  .gallery-img-fixed {
-    height: 180px;
-  }
-}
+      @media (max-width: 768px) {
+        .gallery-img-fixed {
+          height: 180px;
+        }
+      }
 
-@media (max-width: 576px) {
-  .gallery-img-fixed {
-    height: 150px;
-  }
-}
+      @media (max-width: 576px) {
+        .gallery-img-fixed {
+          height: 150px;
+        }
+      }
+      .card img {
+        transition: transform 0.4s ease;
+        object-fit: cover;
+        height: 280px;
+      }
 
-  </style>
+      .card:hover img {
+        transform: scale(1.05);
+      }
+
+
+
+        html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .hero-section, .swiper, .swiper-wrapper, .swiper-slide {
+        height: 100vh !important;
+      }
+
+</style>
   
 </head>
 <body>
@@ -220,56 +240,40 @@ html {
     </a>
 
 
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-</button>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-<div class="collapse navbar-collapse" id="navmenu">
-  <ul class="navbar-nav ms-auto text-center">
-    <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
-    <li class="nav-item"><a class="nav-link text-white" href="#services">Services</a></li>
-    <li class="nav-item"><a class="nav-link text-white" href="#Book Now">Book Now</a></li>
-    <li class="nav-item"><a class="nav-link text-white" href="#gallery">Gallery</a></li>
-    <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
-    <li class="nav-item"><a class="nav-link text-white" href="#about">About Us</a></li>
-  </ul>
-</div>
-
-
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto text-center">
+        <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#Book Now">Book Now</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#about">About Us</a></li>
+      </ul>
+    </div>
   </div>
 </nav>
 
 <!-- Sections -->
 
-<!-- Home -->
-<!-- Hero Section Start -->
-<!-- <section class="hero-section d-flex align-items-center justify-content-center text-center bg-black  p-5" style="background: url('img/virat.jfif') no-repeat center/cover; height: 100vh; padding-top: 80px;">
-  <div class="container text-white">
-    <div class="d-flex justify-content-center align-items-center flex-wrap hero-title">
-      <h2 class="display-4 fw-bold" data-aos="fade-left">FAMA</h2>
-      <img src="img/FaMA logo.png" alt="FAMA Logo" class="hero-logo mx-2" data-aos="zoom-in" style="width: 80px; height: 80px; object-fit: cover; border-radius: 50%;">
-      <h2 class="display-4 fw-bold " data-aos="fade-right">BARBER</h2>
-    </div>
-    <h3 class="fw-bold text-center py-2" data-aos="fade-up">  And  Beauty  Salon </h3>
-    <a href="#about" class="btn btn-warning px-4 py-2" data-aos="fade-up">Explore More</a>
-  </div>
-</section> -->
-<!-- Hero Section End -->
 
 <!-- Hero Section with Swiper and Navigation -->
 <section id="home" class="hero-section swiper mySwiper bg-black">
   <div class="swiper-wrapper">
 
     <!-- Slide 1 - Welcome -->
-    <div class="swiper-slide d-flex align-items-center text-center text-white" 
-         style="background: url('img/freepik.avif') no-repeat center/cover; height: 100vh;">
-      <div class="container">
+    <div class="swiper-slide d-flex align-items-center justify-content-center text-white w-100 vh-100"
+         style="background: url('img/free3 copy.jpeg') no-repeat center center / cover;">
+      <div class="container text-center">
         <div class="slide-content" data-aos="fade-up">
           <h1 class="display-4 fw-bold">FAMA 
             <img src="img/FaMA logo.png" alt="FAMA Logo" class="mx-2" style="width: 60px; height: 60px; border-radius: 50%; border: 2px solid #ffc107;"> 
             BARBER
           </h1>
-          <h3 class="fw-bold mb-3">& Beauty Salon</h3>
+          <h3 class="fw-bold mb-3">Shop & Beauty Salon</h3>
           <p class="lead mb-3"><strong>Where Style Meets Elegance</strong></p>
           <ul class="list-unstyled mb-3">
             <li>• Personalized grooming for men & women</li>
@@ -282,9 +286,9 @@ html {
     </div>
 
     <!-- Slide 2 - Services -->
-    <div class="swiper-slide d-flex align-items-center text-center text-white"
-         style="background: url('img/free1.jpg') no-repeat center/cover; height: 100vh;">
-      <div class="container">
+    <div class="swiper-slide d-flex align-items-center justify-content-center text-white w-100 vh-100"
+         style="background: url('img/kidshaircut.jpeg') no-repeat center center / cover;">
+      <div class="container text-center">
         <div class="slide-content" data-aos="fade-up">
           <h1 class="display-4 fw-bold">Our Signature Services</h1>
           <p class="lead mb-3">Haircuts, Beard Styling, Facials, Hair Coloring, Bridal Makeup & More</p>
@@ -299,9 +303,9 @@ html {
     </div>
 
     <!-- Slide 3 - Booking -->
-    <div class="swiper-slide d-flex align-items-center text-center text-white"
-         style="background: url('img/virat.jfif') no-repeat center/cover; height: 100vh;">
-      <div class="container">
+    <div class="swiper-slide d-flex align-items-center justify-content-center text-white w-100 vh-100"
+         style="background: url('img/beard.avif') no-repeat center center / cover;">
+      <div class="container text-center">
         <div class="slide-content" data-aos="fade-up">
           <h1 class="display-4 fw-bold">Book Your Style Session Today</h1>
           <p class="lead mb-3">Our professionals are ready to serve you with premium care.</p>
@@ -310,7 +314,7 @@ html {
             <li>• Friendly, hygienic environment</li>
             <li>• Walk-ins also welcome</li>
           </ul>
-          <a href="#contact" class="btn btn-warning">Book Now</a>
+          <a href="#Book Now" class="btn btn-warning">Book Now</a>
         </div>
       </div>
     </div>
@@ -320,7 +324,7 @@ html {
   <!-- Swiper Navigation -->
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
-  
+
   <!-- Swiper Pagination -->
   <div class="swiper-pagination"></div>
 </section>
@@ -341,7 +345,7 @@ html {
             <h5 class="card-title fw-bold">Men's Haircut</h5>
             <p class="card-text">Modern, classic, or custom styles. Look sharp, feel fresh.</p>
             <p class="text-warning fw-bold">$30 - $40</p>
-            <a href="#contact" class="btn btn-outline-light btn-sm">Book Now</a>
+            <a href="#Book Now" class="btn btn-outline-light btn-sm">Book Now</a>
           </div>
         </div>
       </div>
@@ -354,7 +358,7 @@ html {
             <h5 class="card-title fw-bold">Beard Trim / Shape</h5>
             <p class="card-text">Sculpted precision to match your style and face.</p>
             <p class="text-warning fw-bold">$20 - $25</p>
-            <a href="#contact" class="btn btn-outline-light btn-sm">Book Now</a>
+            <a href="#Book Now" class="btn btn-outline-light btn-sm">Book Now</a>
           </div>
         </div>
       </div>
@@ -367,7 +371,7 @@ html {
             <h5 class="card-title fw-bold">Hair Coloring</h5>
             <p class="card-text">Trendy highlights, full coverage, or root touch-ups.</p>
             <p class="text-warning fw-bold">$50 - $90</p>
-            <a href="#contact" class="btn btn-outline-light btn-sm">Book Now</a>
+            <a href="#Book Now" class="btn btn-outline-light btn-sm">Book Now</a>
           </div>
         </div>
       </div>
@@ -380,41 +384,15 @@ html {
             <h5 class="card-title fw-bold">Kids Haircut</h5>
             <p class="card-text">Quick, comfy, and fun styles for children of all ages.</p>
             <p class="text-warning fw-bold">$20 - $30</p>
-            <a href="#contact" class="btn btn-outline-light btn-sm">Book Now</a>
+            <a href="#Book Now" class="btn btn-outline-light btn-sm">Book Now</a>
           </div>
         </div>
       </div>
-
-      <!-- Additional Service 1: Facial
-      <div class="col-md-6 col-lg-3" data-aos="zoom-in">
-        <div class="card shadow border-0 h-100">
-          <img src="img/refreshing.avif" class="card-img-top" alt="Facial">
-          <div class="card-body text-center">
-            <h5 class="card-title fw-bold">Refreshing Facial</h5>
-            <p class="card-text text-muted">Glow up with deep cleansing, hydration & relaxation.</p>
-            <p class="text-warning fw-bold">$35 - $50</p>
-            <a href="#contact" class="btn btn-outline-dark btn-sm">Book Now</a>
-          </div>
-        </div>
-      </div>
-
-     Additional Service 2: Bridal Makeup 
-      <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
-        <div class="card shadow border-0 h-100">
-          <img src="img/bridal.avif" class="card-img-top" alt="Bridal Makeup heigh=300 width=300">
-          <div class="card-body text-center">
-            <h5 class="card-title fw-bold">Bridal Makeup</h5>
-            <p class="card-text text-muted">Elegance & perfection for your big day!</p>
-            <p class="text-warning fw-bold">$120 - $200</p>
-            <a href="#contact" class="btn btn-outline-dark btn-sm">Book Now</a>
-          </div>
-        </div>
-      </div> -->
-
     </div>
-  </div>
-  
+  </div> 
 </section>
+
+
 <!-- Customer Reviews -->
 <section id="reviews" class="bg-black text-white py-5">
   <div class="container" data-aos="fade-up">
@@ -527,50 +505,70 @@ html {
     <p class="mb-5">Take a look at our transformations and happy moments!</p>
 
     <div class="row g-4">
-      <!-- Image 1 -->
-      <div class="col-md-4 col-sm-6">
-        <div class="gallery-img-container position-relative">
-          <img src="img/andrea-donato-MNu0n-3BIKs-unsplash.jpg" class="img-fluid rounded shadow-sm gallery-img-fixed" alt="Haircut Style 1" data-bs-toggle="modal" data-bs-target="#modal1">
+      <!-- Gallery Card -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card bg-dark text-white shadow-lg border-0 h-100">
+          <img src="img/viratblacktheme.jpeg" class="card-img-top img-fluid rounded-top" alt="Haircut Style 1" data-bs-toggle="modal" data-bs-target="#modal1">
+          <div class="card-body">
+            <h5 class="card-title">Haircut Style</h5>
+            <p class="card-text">Sharp, modern look tailored to your style.</p>
+          </div>
         </div>
       </div>
 
-      <!-- Image 2 -->
-      <div class="col-md-4 col-sm-6">
-        <div class="gallery-img-container position-relative">
-          <img src="img/agustin-fernandez-1Pmp9uxK8X8-unsplash.jpg" class="img-fluid rounded shadow-sm gallery-img-fixed" alt="Beard Trim" data-bs-toggle="modal" data-bs-target="#modal2">
+      <div class="col-lg-4 col-md-6">
+        <div class="card bg-dark text-white shadow-lg border-0 h-100">
+          <img src="img/agustin-fernandez-1Pmp9uxK8X8-unsplash.jpg" class="card-img-top img-fluid rounded-top" alt="Beard Trim" data-bs-toggle="modal" data-bs-target="#modal2">
+          <div class="card-body">
+            <h5 class="card-title">Beard Trim</h5>
+            <p class="card-text">Expert beard styling for a polished appearance.</p>
+          </div>
         </div>
       </div>
 
-      <!-- Image 3 -->
-      <div class="col-md-4 col-sm-6">
-        <div class="gallery-img-container position-relative">
-          <img src="img/nathon-oski-fE42nRlBcG8-unsplash.jpg" class="img-fluid rounded shadow-sm gallery-img-fixed" alt="Kids Haircut" data-bs-toggle="modal" data-bs-target="#modal3">
+      <div class="col-lg-4 col-md-6">
+        <div class="card bg-dark text-white shadow-lg border-0 h-100">
+          <img src="img/kids.jpeg" class="card-img-top img-fluid rounded-top" alt="Kids Haircut" data-bs-toggle="modal" data-bs-target="#modal3">
+          <div class="card-body">
+            <h5 class="card-title">Kids Haircut</h5>
+            <p class="card-text">Gentle and stylish cuts for the little champs.</p>
+          </div>
         </div>
       </div>
 
-      <!-- Image 4 -->
-      <div class="col-md-4 col-sm-6">
-        <div class="gallery-img-container position-relative">
-          <img src="img/pexels-rdne-7697358.jpg" class="img-fluid rounded shadow-sm gallery-img-fixed" alt="Hair Coloring" data-bs-toggle="modal" data-bs-target="#modal4">
+      <div class="col-lg-4 col-md-6">
+        <div class="card bg-dark text-white shadow-lg border-0 h-100">
+          <img src="img/mens.jpeg" class="card-img-top img-fluid rounded-top" alt="Hair Coloring" data-bs-toggle="modal" data-bs-target="#modal4">
+          <div class="card-body">
+            <h5 class="card-title">Hair Coloring</h5>
+            <p class="card-text">Vibrant, bold, or natural – color your confidence.</p>
+          </div>
         </div>
       </div>
 
-      <!-- Image 5 -->
-      <div class="col-md-4 col-sm-6">
-        <div class="gallery-img-container position-relative">
-          <img src="img/pexels-thgusstavo-2068672.jpg" class="img-fluid rounded shadow-sm gallery-img-fixed" alt="Bridal Makeup" data-bs-toggle="modal" data-bs-target="#modal5">
+      <div class="col-lg-4 col-md-6">
+        <div class="card bg-dark text-white shadow-lg border-0 h-100">
+          <img src="img/bridal.avif" class="card-img-top img-fluid rounded-top" alt="Bridal Makeup" data-bs-toggle="modal" data-bs-target="#modal5">
+          <div class="card-body">
+            <h5 class="card-title">Bridal & Groom Makeup</h5>
+            <p class="card-text">Flawless makeup for your big day, crafted with care.</p>
+          </div>
         </div>
       </div>
 
-      <!-- Image 6 -->
-      <div class="col-md-4 col-sm-6">
-        <div class="gallery-img-container position-relative">
-          <img src="img/refreshing.avif" class="img-fluid rounded shadow-sm gallery-img-fixed" alt="Customer Smile" data-bs-toggle="modal" data-bs-target="#modal6">
+      <div class="col-lg-4 col-md-6">
+        <div class="card bg-dark text-white shadow-lg border-0 h-100">
+          <img src="img/refreshing.avif" class="card-img-top img-fluid rounded-top" alt="Customer Smile" data-bs-toggle="modal" data-bs-target="#modal6">
+          <div class="card-body">
+            <h5 class="card-title">Happy Customers</h5>
+            <p class="card-text">Smiles that reflect satisfaction and style!</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
 
 <!-- Contact Section -->
@@ -699,9 +697,9 @@ html {
 
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-
+// swiper
 <script>
-  const swiper = new Swiper(".mySwiper", {
+const swiper = new Swiper(".mySwiper", {
     loop: true,
     autoplay: {
       delay: 5000,
@@ -721,7 +719,8 @@ html {
 </script>
 
 <script>
-  const navbar = document.querySelector('.navbar');
+
+const navbar = document.querySelector('.navbar');
   const heroSection = document.querySelector('.hero-section');
 
   window.addEventListener('scroll', () => {
@@ -731,9 +730,8 @@ html {
       navbar.classList.remove('bg-dark', 'shadow');
     }
   });
-  </script>
 
-
+</script>
 
 </body>
 </html>
